@@ -1,0 +1,487 @@
+html{
+    height:100%;
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+/*    min-height: 100vh;*/
+}
+footer
+{
+    text-align: justify;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: -10px;
+    min-width: 320px;
+/*    width: 90%;*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#img_header
+{
+    margin-left: 600px;
+    margin-right: auto;
+    height: 100px;
+}
+#luigi
+{
+
+    /*    width: 200px;
+        float: right;
+        margin-top: -260px;*/
+    /*    margin-right: 0px;
+        margin-left: 60px;*/
+    position: absolute;
+    left: 895px;
+    width: 200px;
+    margin-top: -360px;
+
+}
+#mario_zombie
+{
+    /*    float: left;*/
+    width: 250px;
+    /*    margin-top: 80px;*/
+    position: absolute;
+    right: 950px;
+    top: 250px;
+}
+#ps4
+{
+    /*    position: relative;
+        top: 50px;
+        left: -180px;*/
+    margin-right: 20px;
+    /*    margin-left: -40px;*/
+}
+#xbox
+{
+    /*    position: relative;
+        top: 40px;
+        left: 50px;*/
+    margin-right: 20px;
+}
+#nintendo
+{
+    /*    position: relative;
+        top: 50px;
+        left: 250px;*/
+    margin-right: 20px;
+}
+#steam
+{
+    /*    position: relative;
+        top: 70px;
+        left: 550px;*/
+    margin-right: 20px;
+}
+#img_acces_NA
+{
+    margin-left: 260px;
+}
+#nav_index
+{
+    padding: 0px 0px;
+    margin-left: 0px;
+
+}
+#nav_index ul
+{
+    width: 100%;
+}
+
+#nav_index li /*Les puces*/
+{
+    display: inline-block;  /*Menu l'un à côté de l'autre/*
+border-right: 1px solid red;*/
+    text-align: center;
+    line-height: 20px; /*taille verticale du fond du menu horizontale*/
+    /*    background-color: scrollbar;*/
+    border-radius: 20px;
+}
+
+#nav_index li:hover
+{
+    text-decoration: none;
+    background-color: salmon ;
+}
+#nav_index li a /*Les liens*/
+{
+    display: block; /*Pour pouvoir cliquer n'importe où autour du lien*/
+    width: 150px;
+    color: white; 
+    font-weight: bold;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    text-decoration: none;
+}
+#nav_index button[type=submit]
+{
+    /*        border: 2px solid black;
+            border-radius: 10px;*/
+    margin-right: 0px;
+    font-weight: bold;
+}
+.form_switch 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+#form_inscription
+{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 70px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+    color: black;
+}
+.new_start
+{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 60px;
+    max-width: 100%;
+    padding: 25px 10px;
+    background-color: white;
+    color: black;
+}
+.connexion_start
+{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 60px;
+    max-width: 300px;
+    padding: 25px 10px;
+    background-color: white;
+    color: black;
+}
+.btn_connexion1
+{
+    position: relative;
+    top: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.bg-img /* IMG Formulaire nouveau membre*/
+{
+    background-image: url("../image/gtaFranklin.png");
+    min-height: 1000px;
+    /*  background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.btn {
+    /*  background-color: #4CAF50;*/
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.btn:hover {
+    opacity: 1;
+}
+#jeux_ps4
+{
+    margin-top: 60px;
+    /*    display: inline;*/
+}
+.img_jv
+{
+    width: 300px;
+}
+#form_ajout_jeux
+{
+    padding-right: 400px;
+    padding-left: 400px;
+    margin-top: 0px;
+    color: #d9534f;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+#form_ajout_jeux input[type=text],#form_ajout_jeux input[type=date], #form_ajout_jeux select,#form_ajout_jeux input[type=number],textarea
+{
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+#form_ajout_jeux input[type=submit]
+{
+    border-radius: 4px;
+    font-family: "Times New Roman", Times, serif;
+}
+.bouton_ajout_jeux
+{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#quizz
+{
+    color: black;
+    width: 500px;
+    text-align: justify;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px double black;
+}
+#quizz h2
+{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+#quizz h5
+{
+    color: whitesmoke;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+   text-shadow: black 0.1em 0.1em 0.2em;
+}
+.question
+{
+    border: 2px solid appworkspace;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+.reponse
+{
+    color: red;
+    font-weight: bold;
+    font-style: oblique;
+}
+#bouton /*SUBMIT REPONSES DU QUIZZ*/
+{
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 200px;
+}
+#bouton_quizz_reception, #bouton_quizz_classement
+{
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.carousel
+{
+    margin-top: 20px;
+}
+
+/*Formulaire pour se connecter (w3school)*/
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: whitesmoke;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #d9534f;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container_form {
+    padding: 50px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: transparent;
+    padding-top: 80px;
+    padding-right: 500px;
+    padding-left: 500px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
+
+/* zoom image w3school*/
+.zoom {
+    padding: 20px;
+    /*  background-color: green;*/
+    transition: transform .2s;
+    /*  width: 200px;
+      height: 200px;*/
+    /*  margin: 0 auto;*/
+}
+.zoom:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+}
+.anthem_img /* IMG Formulaire nouveau membre*/
+{
+    background-image: url("../image/fb.jpg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.icone_reseaux li
+{
+        display: inline-block;
+        padding: 0px 70px;
+}
+
+/*Rapport w3school*/
+ul li {
+  list-style-type: none;
+  text-align: justify;
+}
+ul #li_classBoot {
+  list-style-type: square;
+}
+ul li span {
+  list-style-type: none;
+  color: #d9534f;
+  text-shadow: 1px 1px black;
+}
+#myUL {
+  margin-top: 20px;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+/*  user-select: none;*/
+}
+
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+#rapport_titre
+{
+    margin-top: 30px;
+}
+.basp
+{
+ position : absolute;
+  bottom : 50px;
+}
